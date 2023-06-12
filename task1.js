@@ -21,7 +21,7 @@ const cekHariKerja = (day) => {
   
   const cekHari = async (day) => {
     try {
-        await cekHariKerja(day);
+      console.log(await cekHariKerja(day));
     } catch (error) {
       console.log(error.message);
     }
